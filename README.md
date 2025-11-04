@@ -9,8 +9,8 @@ Keluaran akhirnya adalah:
   1.	Input Jumlah Siswa
   2.	Inisialisasi Total Nilai
   3.	Perulangan for
-       •	Perulangan dilakukan sebanyak jumlah siswa.
+         •	Perulangan dilakukan sebanyak jumlah siswa.
 	     •	Setiap kali pengulangan, pengguna memasukkan nilai siswa ke-i.
-       • 	Nilai tersebut dijumlahkan ke dalam totalNilai.
-	4.	Hitung Rata-rata
-	5.	Tampilkan Hasil
+         • 	Nilai tersebut dijumlahkan ke dalam totalNilai.
+  4.	Hitung Rata-rata
+  5.	Tampilkan Hasil
