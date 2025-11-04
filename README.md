@@ -2,9 +2,9 @@
 
 Program kali ini digunakan untuk menghitung nilai rata-rata dari sejumlah siswa berdasarkan nilai yang dimasukkan pengguna.
 Keluaran akhirnya adalah:
-	•	jumlah siswa,
-	•	total nilai,
-	•	dan rata-rata nilai seluruh siswa.
+	   •	jumlah siswa,
+	   •	total nilai,
+	   •	dan rata-rata nilai seluruh siswa.
 
   1.	Input Jumlah Siswa
   2.	Inisialisasi Total Nilai
