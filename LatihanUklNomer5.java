@@ -1,16 +1,35 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package com.mycompany.latihanuklnomer5;
 
 /**
  *
  * @author li0nfl
  */
+import java.util.Scanner;
+
 public class LatihanUklNomer5 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner inputan = new Scanner(System.in);
+
+        System.out.println("Masukkan Jumlah Siswa: ");
+        int jumlahSiswa = inputan.nextInt();
+
+        double totalNilai = 0;
+
+        for (int i = 1; i <= jumlahSiswa; i++) {
+            System.out.print("Masukkan Nilai Siswa ke-" + i + ": ");
+            double nilain = inputan.nextDouble();
+            totalNilai += nilain;
+        }
+
+        double rataRata = totalNilai / jumlahSiswa;
+        System.out.println(" ");
+        System.out.println("Jumlah Siswa          : " + jumlahSiswa);
+        System.out.println("Total Nilai           : " + totalNilai);
+        System.out.println("Nilai Rata-Rata Siswa : " + rataRata);
+
     }
 }
